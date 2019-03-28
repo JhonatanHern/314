@@ -281,3 +281,8 @@ header {
         height: 500px;
     }
 }
+.descriptive-text{
+    color: #fff;
+    padding-left: 1em;
+    padding-right: 1em;
+}
