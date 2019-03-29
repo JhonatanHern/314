@@ -1952,13 +1952,13 @@ img {
   -o-transition: all 0.5s;
   transition: all 0.5s;
 }
-#mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget ul li a:before {
+/* #mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget ul li a:before {
   content: "\f101";
   font-family: FontAwesome;
   left: 0;
   position: absolute;
   top: 5px;
-}
+} */
 #mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget ul li a:hover, #mu-footer .mu-footer-top .mu-footer-top-area .mu-footer-widget ul li a:focus {
   margin-left: 5px;
 }

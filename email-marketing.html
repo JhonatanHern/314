@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="utf-8">
@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>314 | Proyectos Informáticos</title>
 
- <!-- <link href="assets/css/normaliza.css" rel="stylesheet">-->
+  <!-- <link href="assets/css/normaliza.css" rel="stylesheet">-->
   <!-- Favicon -->
   <link rel="shortcut icon" href="assets/img/Logo.png" type="image/x-icon">
 
@@ -28,7 +28,7 @@
 
   <!-- custom style sheet -->
   <link href="assets/css/custom.css" rel="stylesheet">
-  
+
 
 
   <!-- Google Fonts -->
@@ -65,12 +65,12 @@
             <div class="row">
               <div class="col-lg-6 col-md-6 col-sm-6 col-xs-6">
                 <div class="mu-header-top-left">
-                  <div class="mu-top-email">
+                  <div class="mu-top-email hand">
                     <i class="fa fa-envelope"></i>
                     <span>contacto@314mexico.com.mx</span>
                   </div>
-                  <div class="mu-top-phone">
-                    <i class="fa fa-phone"></i>
+                  <div class="mu-top-phone hand">
+                    <i class="fa fa-whatsapp"></i>
                     <span>+52 1 442 205 8961</span>
                   </div>
                 </div>
@@ -79,9 +79,11 @@
                 <div class="mu-header-top-right">
                   <nav>
                     <ul class="mu-top-social-nav">
-                      <li><a href="https://www.facebook.com/314-Proyectos-Informaticos-631594333932162/"><span class="fa fa-facebook"></span></a></li>
+                      <li><a href="https://www.facebook.com/314-Proyectos-Informaticos-631594333932162/"><span
+                            class="fa fa-facebook"></span></a></li>
                       <li><a href="https://twitter.com/314PI2"><span class="fa fa-twitter"></span></a></li>
-                      <li><a href="https://www.instagram.com/314proyectosinformaticosmx/"><span class="fa fa-instagram"></span></a></li>
+                      <li><a href="https://www.instagram.com/314proyectosinformaticosmx/"><span
+                            class="fa fa-instagram"></span></a></li>
                       <li><a href="https://www.linkedin.com/company/314pi"><span class="fa fa-linkedin"></span></a></li>
                     </ul>
                   </nav>
@@ -108,7 +110,9 @@
             <!-- LOGO -->
             <!-- TEXT BASED LOGO -->
             <a class="navbar-brand" href="index.html">
-              <!-- <img src="./assets/img/Logo.png" alt="" srcset=""> -->
+              <figure>
+                <img src="./assets/img/Logo.png" alt="314 Proyectos Informáticos">
+              </figure>
               <h1 id="logo-title">314 Proyectos Informáticos</h1>
             </a>
             <!-- IMG BASED LOGO  -->
@@ -117,11 +121,18 @@
           <div id="navbar" class="navbar-collapse collapse">
             <ul id="top-menu" class="nav navbar-nav navbar-right main-nav">
               <li><a href="index.html">Inicio</a></li>
-              <li><a href="sucursalizate.html">Sucursalízate</a></li>
-              <li><a href="mantenimiento-web.html">Mantenimiento Web</a></li>
-              <li class="active"><a href="email-marketing.html">Email Marketing</a></li>
-              <li><a href="planificacion-redes.html">Planificación de Redes</a></li>
-              <!-- <li><a href="contacto.html">Contacto</a></li> -->
+              <li class="dropdown active">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Soluciones <span
+                    class="fa fa-angle-down"></span></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="./sucursalizate.html">Sucursalízate</a></li>
+                  <li><a href="./mantenimiento-web.html">Mantenimiento Web</a></li>
+                  <li><a href="./email-marketing.html">Email Marketing</a></li>
+                  <li class="active"><a href="./planificacion-redes.html">Planifiación de Redes</a></li>
+                </ul>
+              </li>
+              <li><a href="./promociones.html">Promociones</a></li>
+              <li><a href="./contacto.html">Contacto</a></li>
             </ul>
           </div>
           <!--/.nav-collapse -->
@@ -333,18 +344,60 @@
       <div class="container">
         <div class="mu-footer-top-area">
           <div class="row">
-            <a href="https://www.facebook.com/314-Proyectos-Informaticos-631594333932162/">
-              <i class="fa fa-facebook-square"></i>
-            </a>
-            <a href="https://twitter.com/314PI2">
-              <i class="fa fa-twitter-square"></i>
-            </a>
-            <a href="https://www.instagram.com/314proyectosinformaticosmx/">
-              <i class="fa fa-instagram"></i>
-            </a>
-            <a href="https://www.linkedin.com/company/314pi">
-              <i class="fa fa-linkedin-square"></i>
-            </a>
+            <div class="col-lg-6">
+              <div class="mu-footer-widget">
+                <h4>Contáctanos</h4>
+                <ul>
+                  <li>
+                    <p>
+                      Nuestras Redes:
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      314 Proyectos Informáticos
+                    </p>
+                  </li>
+                  <li>
+                    <a href="https://www.facebook.com/314-Proyectos-Informaticos-631594333932162/">
+                      <i class="fa fa-facebook-square"></i>
+                    </a>
+                    <a href="https://twitter.com/314PI2">
+                      <i class="fa fa-twitter-square"></i>
+                    </a>
+                    <a href="https://www.instagram.com/314proyectosinformaticosmx/">
+                      <i class="fa fa-instagram"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/company/314pi">
+                      <i class="fa fa-linkedin-square"></i>
+                    </a>
+                  </li>
+                  <li class="hand">
+                    <a>
+                      <i class="fa fa-envelope"> </i>
+                      <span> contacto@314mexico.com.mx</span>
+                    </a>
+                  </li>
+                  <li class="hand">
+                    <a>
+                      <i class="fa fa-whatsapp"> </i>
+                      <span>+52 1 442 205 8961</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="mu-footer-widget">
+                <h4>News letter</h4>
+                <p>Mantente al día con nuestras últimas promociones</p>
+                <form class="mu-subscribe-form">
+                  <input type="email" placeholder="Escribe tu Email">
+                  <button class="mu-subscribe-btn" type="submit">¡Suscríbete!</button>
+                </form>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
@@ -354,7 +407,7 @@
     <div class="mu-footer-bottom">
       <div class="container">
         <div class="mu-footer-bottom-area">
-          <p>&copy; 314 Proyectos Informáticos</p>
+          <p>&copy; Desarrollado por 314 Proyectos Informáticos, todos los derechos reservados.</p>
         </div>
       </div>
     </div>
