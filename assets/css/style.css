@@ -193,6 +193,9 @@ img {
   padding-top: 20px;
   letter-spacing: 0.5px;
 }
+@media(max-width: 1000px){
+  #mu-menu .navbar-header .navbar-brand {font-size: 15px}
+}
 #mu-menu .navbar-header .navbar-brand i {
   font-size: 35px;
 }
