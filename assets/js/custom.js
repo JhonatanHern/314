@@ -272,8 +272,8 @@ function v_js_check() {
   for (var i = v_js_targets.length - 1; i >= 0; i--) {
     if(v_js_elementInViewport(v_js_targets[i]))
       v_js_targets[i].classList.add('j-animated')
-    else
-      v_js_targets[i].classList.remove('j-animated')
+    // else
+      // v_js_targets[i].classList.remove('j-animated')
   }
 }
 document.addEventListener("scroll",v_js_check)
