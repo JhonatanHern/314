@@ -626,9 +626,6 @@ header {
                 transform: none;
     }
 }
-
-
-
 .rem-banner{
     position: fixed;
     top: 100vh;
@@ -659,4 +656,7 @@ header {
 }
 .rem-banner span:after{
     transform: translateY(-50%) rotate(-45deg);
+}
+.mu-header-area .fa:hover{
+    color: #C81216;
 }

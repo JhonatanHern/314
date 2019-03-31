@@ -283,10 +283,7 @@ document.addEventListener("DOMContentLoaded",function(){
   banner.classList.add('rem-banner')
   banner.innerHTML = 'Al permanecer navegando en este sitio, usted acepta nuestros <a>términos y condiciones</a> <span></span>'
   var close = banner.querySelector('span')
-  console.log(close)
-  console.log('close')
   close.addEventListener('click',function () {
-    console.log(banner)
     banner.style.display = 'none'
   })
   document.body.appendChild(banner) 
