@@ -431,11 +431,15 @@ header {
     background-color: #fff;
     padding: 1em;
     width: 30%;
+    opacity:0;
+    animation-fill-mode: forwards;
+    box-shadow: 3px 3px 16px #888;
 }
 @media(max-width: 800px){
     .j-sucursalizate div{width: 80%;margin-bottom: .5em;}
     .j-sucursalizate button{width: 80%;}
 }
+.j-sucursalizate button{margin-top: 2em;}
 .j-sucursalizate div h4{
     text-align: center;
 }
@@ -596,6 +600,7 @@ header {
     to {
         -webkit-transform: none;
                 transform: none;
+        opacity: 1;
     }
 }
 @keyframes bounceInTop {
@@ -624,6 +629,7 @@ header {
     to {
         -webkit-transform: none;
                 transform: none;
+        opacity: 1;
     }
 }
 .rem-banner{
@@ -659,4 +665,31 @@ header {
 }
 .mu-header-area .fa:hover{
     color: #C81216;
+}
+#mu-features h3 span{
+    text-shadow:  1px 1px 4px rgba(255,255,255,.5);
+}
+#mu-features h3{
+    color: #fff;
+}
+#mu-features p{
+    /*color: #ccc;*/
+}
+#mu-features{
+    background-color: #ccc;
+    color:#fff;
+}
+#mu-features div.mu-single-feature{
+    background-color: #fff;
+    padding: .9em!important;
+}
+#mu-features .mu-single-feature p{
+    color: #000;
+}
+#mu-latest-courses {
+    background-color: #fff;
+    padding: 70px 0;
+}
+#mu-latest-courses .mu-latest-courses-area .mu-title h2{
+    color: #222;
 }
