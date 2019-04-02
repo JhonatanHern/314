@@ -139,7 +139,8 @@ position: absolute;
     color: #C81216;
 }
 #mu-menu .navbar-default .navbar-nav li .dropdown-menu li a:hover, #mu-menu .navbar-default .navbar-nav li .dropdown-menu li a:focus {
-    background-color: #C81216;
+    /*background-color: #C81216;*/
+    background-color: #555;
 }
 #logo-title{
     font-size: 0.8em;
