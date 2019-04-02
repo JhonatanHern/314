@@ -419,13 +419,14 @@ header {
     justify-content: space-around;
 }
 .j-sucursalizate button{
-    width: 30%;
+    width: 80%;
     margin-top: 1em;
     color: #fff;
     background-color: #C81216;
     padding: .7em;
     border:none;
     font-weight: bold;
+    margin-left: 10%;
 }
 .j-sucursalizate div{
     background-color: #fff;
@@ -437,7 +438,7 @@ header {
 }
 @media(max-width: 800px){
     .j-sucursalizate div{width: 80%;margin-bottom: .5em;}
-    .j-sucursalizate button{width: 80%;}
+    .j-sucursalizate button{width: 80%;margin-left: 10%}
 }
 .j-sucursalizate button{margin-top: 2em;}
 .j-sucursalizate div h4{
@@ -686,10 +687,29 @@ header {
 #mu-features .mu-single-feature p{
     color: #000;
 }
-#mu-latest-courses {
+#mu-latest-courses.front{
     background-color: #fff;
     padding: 70px 0;
 }
 #mu-latest-courses .mu-latest-courses-area .mu-title h2{
     color: #222;
+}
+@media (max-width: 640px){
+    #mu-header .mu-header-area .mu-header-top-left a.mu-top-phone {
+        display: block;
+    }
+}
+footer a,h1{
+    text-transform: none!important;
+}
+.mu-header-top-left > *:hover{
+    color: #C81216;
+}
+@media(max-width: 1200px){
+    footer h4{
+        text-align: left;
+    }
+    footer a{
+        text-align: left;
+    }
 }
