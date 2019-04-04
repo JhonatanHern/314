@@ -822,6 +822,8 @@ footer a,h1{
 }
 .mu-latest-course-single-content > div{
     overflow-y: auto;
+    overflow-x: hidden;
+
     height: 100%;
 }
 .mu-latest-course-single-content div ul{
