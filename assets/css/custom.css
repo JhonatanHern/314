@@ -6,9 +6,6 @@ html{
     /*position: fixed;*/
     z-index: 1000;
 }
-section#mu-slider.slick-initialized.slick-slider {
-   /* margin-top: 6%;*/
-}
 h1{
     font-size: 3em;
     font-weight: 1000;
@@ -166,6 +163,7 @@ position: absolute;
 }
 .mu-latest-course-single{
     height: 500px;
+    position: relative;
 }
 
 .mu-latest-course-single .mu-latest-course-single-content {
@@ -806,4 +804,26 @@ footer a,h1{
     footer a{
         text-align: left;
     }
+}
+.mu-latest-course-img{
+    height: 50px;
+    overflow: hidden;
+}
+.mu-latest-course-img figure{
+    height: 100%;
+}
+.mu-latest-course-img img{
+    height: 100%;
+    position: relative;left: 50%;
+    transform: translateX(-50%);
+}
+.mu-latest-course-single-content{
+    position: relative;
+}
+.mu-latest-course-single-content > div{
+    overflow-y: auto;
+    height: 100%;
+}
+.mu-latest-course-single-content div ul{
+    height: auto!important;
 }
