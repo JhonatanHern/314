@@ -98,7 +98,7 @@ jQuery(function($){
       slidesToShow: 3,
       slidesToScroll: 2,
       autoplay: true,
-      autoplaySpeed: 2500,
+      autoplaySpeed: 5000,
       responsive: [
         {
           breakpoint: 1024,
