@@ -331,7 +331,7 @@ header {
     text-align: center;
     width: 3.2em;
     height: 1em;
-    transform: scale(2) translateY(-.15em);
+    transform: scale(1.5) translateY(-.15em);
 }
 .tres-puntos{
     margin-left: 2.14em;
@@ -348,8 +348,8 @@ header {
     text-align: center;
     width: 5.2em;
     height: 1em;
-    transform: scale(3.3) translateY(-.12em);
-    margin-right: .4em;
+    transform: scale(2) translateY(-.12em);
+    margin-right: .2em;
 }
 /* responsive */
 
