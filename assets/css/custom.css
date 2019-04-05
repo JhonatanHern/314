@@ -316,25 +316,40 @@ header {
    width: 1.6em;
    vertical-align: middle;
 }
+.dos-puntos{
+    margin-left: .1em;
+}
 .dos-puntos::before{
-    content: url(../img/dos-puntos.svg);
+    content: '';
+    background-image:url(../img/dos-puntos.svg);
     font-size: 0.5em;
-   display: inline-block;
-   font-weight: bold;
-   line-height: 1.6em;
-   text-align: center;
-   width: 1.6em;
-   vertical-align: middle;
+    display: inline-block;
+    font-weight: bold;
+    background-size:3.2em 1.8em;
+    background-position: center;
+    line-height: 1em;
+    text-align: center;
+    width: 3.2em;
+    height: 1em;
+    transform: scale(2) translateY(-.15em);
+}
+.tres-puntos{
+    margin-left: .14em;
 }
 .tres-puntos::before{
-    content: url(../img/tres-puntos.svg);
+    content: '';
+    background-image:url(../img/tres-puntos.svg);
     font-size: 0.5em;
-   display: inline-block;
-   font-weight: bold;
-   line-height: 1.6em;
-   text-align: center;
-   width: 1.6em;
-   vertical-align: middle;
+    display: inline-block;
+    font-weight: bold;
+    background-size:5em 1.8em;
+    background-position: center;
+    line-height: 1em;
+    text-align: center;
+    width: 5.2em;
+    height: 1em;
+    transform: scale(3.3) translateY(-.12em);
+    margin-right: .4em;
 }
 /* responsive */
 
