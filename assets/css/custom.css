@@ -317,7 +317,7 @@ header {
    vertical-align: middle;
 }
 .dos-puntos{
-    margin-left: .1em;
+    margin-left: 1.1em;
 }
 .dos-puntos::before{
     content: '';
@@ -334,7 +334,7 @@ header {
     transform: scale(2) translateY(-.15em);
 }
 .tres-puntos{
-    margin-left: .14em;
+    margin-left: 2.14em;
 }
 .tres-puntos::before{
     content: '';
